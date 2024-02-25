@@ -35,7 +35,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
-        android:id="@+id/getstarted"
+        android:id="@+id/getStart"
         android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
@@ -59,7 +59,7 @@
         android:scaleType="fitCenter"
         app:layout_constraintEnd_toEndOf="@+id/textView2"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/getstarted"
-        app:layout_constraintTop_toBottomOf="@+id/getstarted"
+        app:layout_constraintStart_toStartOf="@+id/getStart"
+        app:layout_constraintTop_toBottomOf="@+id/getStart"
         app:srcCompat="@drawable/doctor" />
 </androidx.constraintlayout.widget.ConstraintLayout>
